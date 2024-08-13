@@ -36,5 +36,26 @@ while($number < 6) {
   print "\n";
   $number += 1;
 }
+
+//割り切り問題
+$number = 15;
+if ($number % 15 == 0) {
+  print '最高！！';
+} elseif ($number % 5 ==0 ) {
+  print 'スクール';
+} elseif ($number % 3 == 0) {
+  print 'プログラミング';
+} else {
+  print $number;
+}
+
+// 比較
+$test_01 = false;
+$test_02 = true;
+
+if ($test_01 || $test_02) {
+  print 'OR';
+}
+
 ?>
 
